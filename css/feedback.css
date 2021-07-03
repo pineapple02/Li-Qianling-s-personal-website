@@ -1,0 +1,173 @@
+body{
+    height: 100%;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-attachment: fixed;   /* 设置body背景图片不会随着页面的滚动而滚动 */
+    background-image: url(../images/background.jpg);
+    background-color: #EFE9DB;
+    color: rgb(125, 99, 77);
+    overflow-wrap: break-word;  /* 内容在边界内换行 */
+    font: 12px / 200% "Microsoft YaHei";
+}
+
+div{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+h1{
+    padding: 0;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+a, a:hover{
+    color: #EBA3A9;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.document{
+    min-height: 100%;
+    width: 920px;
+    margin: 0px auto;
+    padding: 0px 80px;
+    background: url(../images/d-background.png?imageView) repeat-y scroll left top;
+}
+
+.header{
+    width: 920px;
+    height: 180px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.title{
+    margin: 0;
+    padding: 40px 0;
+    line-height: 40px;
+    color: #8E7F6F;
+}
+
+.navig{
+    width: 920;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    line-height: 60px;
+    background: url(../images/n-background.png) no-repeat scroll center top;
+}
+
+.navig li{
+    height: 60px;
+    margin: 0 20px;
+    display: inline-block;
+    list-style: none;
+    line-height: 60px;
+}
+
+.navig a{
+    color: #8E7F6F;
+    font-size: 16px;
+}
+
+.navig a:hover{
+    color: #EBA3A9;
+}
+
+.main-body{
+    height: 450px;
+    padding: 40px 0 80px;
+}
+
+.main{
+    float: left;
+    width: 660px;
+}
+
+.inner{
+    margin: 0 0 30px;
+    padding: 0 0 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.question{
+    width: 100%;
+    margin: 0 auto 10px auto;
+    border: 1px solid #ffe8e2;
+    padding: 1px;
+    background-color: #FFFFFF;
+}
+
+td.questiontext{
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #ffe8e2;
+    text-align: left;
+    padding: 6px 10px;
+}
+
+.asterisk{
+    color: #ff7682;
+    font-size: 9px;
+    margin-right: 5px;
+}
+
+.answer{
+    padding: 12px 12px 12px 12px;
+}
+
+.submit{
+    width: 100%;
+    border: 1px solid #ffe8e2;
+    background: #ffe8e2 50% 50% repeat-x;
+    font-weight: bold;
+    color: #ff7682;
+}
+
+.right{
+    float: right;
+    width: 200px;
+}
+
+.right img{
+    width: 196px;
+    height: 196px;
+    border: 2px solid #EBA3A9;
+    vertical-align: middle;
+}
+
+.footer{
+    padding: 0 0 40px;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>反馈</title>
+        <link rel="stylesheet" type="text/css" href="css/feedback.css">
+    </head>
+    <body>
+        <div class="document">
+            <!-- 页眉区 -->
+            <div class="header">
+                <!-- 标题 -->
+                <h1 class="title">反馈</h1>
+                <!-- 导航区 -->
+                <ul class="navig">
+                    <li>
+                        <a href="./index.html">主页</a>
+                    </li>
+                    <li>
+                        <a href="./hobby.html">爱好</a>
+                    </li>
+                    <li>
+                        <a href="./daily.html">日常</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 内容区 -->
+            <div class="main-body">
+                <div class="con">
+                    <!-- 主栏，分为图片和文字部分 -->
+                    <div class="main">、
+                        <!-- 每个内容块都是一个inner -->
+                        <div class="inner">
+                            <!-- 选择表单放入inner -->
+                            <table class="question">
+                                <tbody>
+                                    <tr>
+                                        <!-- 问题 -->
+                                        <td class="questiontext">
+                                            <!-- 星号 -->
+                                            <span class="asterisk">*</span>
+                                            请问希望在我的主页看到更多什么内容呢？
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <!-- 答案 -->
+                                        <td class="answer">
+                                            <!-- 给出选项（单选） -->
+                                            <input type="radio" name="choice">爱好
+                                            <br>
+                                            <input type="radio" name="choice">日常
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="inner">
+                            <!-- 输入表单放入inner -->
+                            <table class="question">
+                                <tbody>
+                                    <tr>
+                                        <!-- 问题 -->
+                                        <td class="questiontext">
+                                            <!-- 星号 -->
+                                            <span class="asterisk">*</span>
+                                            有什么想要对我说的，可以在这里告诉我！
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <!-- 答案 -->
+                                    <td class="answer">
+                                        <!-- 多行输入文本框 -->
+                                        <textarea cols="60" rows="6"></textarea>
+                                    </td>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- 提交键 -->
+                        <div class="inner">
+                            <!-- 背景色、边框等设置都与之前的问题一致 -->
+                            <table class="question">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <!-- 提交按钮 -->
+                                            <button class="submit" type="submit">
+                                                <span>提交</span>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- 右侧栏，分为头像和简介 -->
+                    <div class="right">
+                        <img src="images/profile.jpg">
+                        <p class="summary">2002/09/20</p>
+                        <p class="summary">中南财经政法大学2019级</p>
+                        <p class="summary">e-mail:2758480006@qq.com</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 尾部 -->
+            <div class="footer">
+                <p class="ft">©&nbsp;李倩玲</p>
+            </div>
+        </div>
+    </body>
+</html>
